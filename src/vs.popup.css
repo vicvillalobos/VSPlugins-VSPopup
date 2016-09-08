@@ -13,11 +13,12 @@ div.vs-popup {
 	display:none;
 	width:60%;
 	margin:20% 20%;
-        margin-bottom:none;
+    margin-bottom:none;
+	min-height:200px;
 	background:#fff;
 	z-index:1005;
-	position:absolute;
-        pointer-events:all;
+	position:fixed;
+    pointer-events:all;
 	
 }
 
