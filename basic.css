@@ -1,0 +1,30 @@
+
+	.vs-popup > .container {
+	
+		padding:1em;	
+		
+	}
+	
+	.title h4 {
+		margin: 0;
+	}
+
+	.vs-popup .title {
+		overflow: hidden;
+		background: #222;
+		padding: 1em;
+		color: #fff;
+		border-top: 5px solid #f57c00;
+		margin: 0;
+	}
+
+	body {
+		font-family: Roboto,'Segoe UI',Calibri,sans-serif;
+	}
+
+	div.vs-popup-close {
+		font-size: 1.5em;
+		top: 13px;
+		right: 13px;
+		color: #666;
+	}
