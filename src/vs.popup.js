@@ -77,7 +77,7 @@ function toggleReveal(idElement){
 				
 				// Desvanecer fondo
 				$('.vs-popup-bg').fadeOut(function(){
-					$('body').css('overflow','auto');
+					$('body').toggleClass('vs-popup-open',false);
 				});
 				
 			} else {	// Si el popup seleccionado NO es visible
@@ -127,7 +127,7 @@ function toggleReveal(idElement){
                                                    
 					//console.log('Agregando Background');                     
 					//Introducir Background
-					$('body').css('overflow','hidden');
+					$('body').toggleClass('vs-popup-open',true);
 					$('div.vs-popup-bg').fadeIn().css('position','fixed');
                                         
 								

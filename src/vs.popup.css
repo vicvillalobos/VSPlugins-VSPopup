@@ -61,3 +61,7 @@ div.vs-popup-close {
 	cursor:pointer;
 	
 }
+
+body.vs-popup-open {
+    overflow:hidden;
+}
